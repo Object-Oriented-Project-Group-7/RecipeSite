@@ -1,0 +1,68 @@
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+  
+<div class="w3-top">
+    <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+      <a href="" class="w3-bar-item w3-button">Masterchef</a>
+      <!-- Right-sided navbar links. Hide them on small screens -->
+      <div class="w3-right w3-hide-small">
+      </div>
+    </div>
+  </div>
+
+  
+<h3>Recipe Details</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">Recipe Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Recipe name..">
+
+    <label for="lname">Recipe Description</label>
+    <input type="text" id="lname" name="lastname" placeholder="Recipe description..">
+
+    <label for="country">Recipe Category</label>
+    <select id="country" name="country">
+      <option value="australia">Breakfast</option>
+      <option value="canada">Appetizer</option>
+      <option value="usa">Entree</option>
+      <option value="usa">Dessert</option>
+    </select>
+
+   <div class="time">
+    <label for="subject"  style="padding-right: 5px;" >Cooking Time</label>
+    <input type="text" id="lname" name="lastname" style="height: 50px; width: 50px;" placeholder="">
+    <label for="subject" style="padding-left:10px; padding-right: 5px;">Prep Time</label>
+    <input type="text" id="lname" name="lastname" style="height: 50px; width: 50px;" placeholder="">
+    <label for="subject"  style="padding-left:10px; padding-right: 5px;">Servings</label>
+    <input type="text" id="lname" name="lastname" style="height: 50px; width: 50px;" placeholder="">
+   </div>
+
+    <label for="subject">Ingredients</label>
+    <textarea id="subject" name="subject" placeholder="Ingredients.." style="height:200px"></textarea>
+
+    <label for="subject">Recipe Steps</label>
+    <textarea id="subject" name="subject" placeholder="Recipe Steps.." style="height:200px"></textarea>
+
+    <label for="subject">Cooking Tips</label>
+    <textarea id="subject" name="subject" placeholder="Cooking Tips.." style="height:200px"></textarea>
+
+    <div>
+    <label for="uploadimage">Upload Image</label>
+    <input type="file" name="image" multiple><br><br>
+</div>
+
+<div>
+    <label for="uploadvideo">Upload Video</label>
+    <input type="file" name="video" multiple><br><br>
+</div>
+
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
